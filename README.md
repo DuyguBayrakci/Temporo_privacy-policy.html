@@ -16,7 +16,6 @@
   <p>The app does not include features such as account creation, email collection, advertisements, or in-app purchases.</p>
   <p>Therefore, Temporo fully complies with applicable privacy regulations including GDPR.</p>
   <p>Contact: duyguubayrakci@gmail.com</p>
-  
 
     <p>
         <h1>🕐 Fast Tracker - Account Deletion</h1>
@@ -91,7 +90,6 @@
 
     <p>
         <h2>Hesabınızı Silmek İstiyorsanız</h2>
-        
         <p>
             <h3>⚠️ Önemli Uyarı</h3>
             <p>Hesap silme işlemi <strong>geri alınamaz</strong>. Tüm verileriniz kalıcı olarak silinecektir.</p>
