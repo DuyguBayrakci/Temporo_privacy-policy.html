@@ -4,26 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gizlilik Politikası | Temporo</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 2rem;
-      line-height: 1.6;
-    }
-    h1, h2, h3 {
-      color: #333;
-      margin-top: 1.5rem;
-    }
-    hr {
-      margin: 2rem 0;
-    }
-    ul, ol {
-      margin-left: 1.5rem;
-    }
-    small {
-      color: #777;
-    }
-  </style>
 </head>
 <body>
 
