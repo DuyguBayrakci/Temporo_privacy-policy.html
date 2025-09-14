@@ -17,7 +17,7 @@
   <p>Therefore, Temporo fully complies with applicable privacy regulations including GDPR.</p>
   <p>Contact: duyguubayrakci@gmail.com</p>
   
-<body>
+
     <div class="header">
         <h1>🕐 Fast Tracker - Account Deletion</h1>
         <p>Temporo Intermittent Fasting App</p>
@@ -84,7 +84,6 @@
         <hr>
         <p><small>Last updated: December 2024 | Fast Tracker v1.0</small></p>
     </div>
-</body>
     <div class="header">
         <h1>🕐 Fast Tracker - Hesap Silme</h1>
         <p>Temporo Oruç Takip Uygulaması</p>
