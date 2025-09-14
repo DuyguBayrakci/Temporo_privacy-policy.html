@@ -18,20 +18,20 @@
   <p>Contact: duyguubayrakci@gmail.com</p>
   
 
-    <div class="header">
+    <p class="header">
         <h1>🕐 Fast Tracker - Account Deletion</h1>
         <p>Temporo Intermittent Fasting App</p>
-    </div>
+    </p>
 
-    <div class="content">
+    <p class="content">
         <h2>Request Account Deletion</h2>
         
-        <div class="warning">
+        <p class="warning">
             <h3>⚠️ Important Warning</h3>
             <p>Account deletion is <strong>irreversible</strong>. All your data will be permanently deleted.</p>
-        </div>
+        </p>
 
-        <div class="steps">
+        <p class="steps">
             <h3>📱 Delete Through App (Recommended)</h3>
             <ol>
                 <li>Open the Fast Tracker app</li>
@@ -41,9 +41,9 @@
                 <li>Confirm twice</li>
                 <li>Your account will be deleted immediately</li>
             </ol>
-        </div>
+        </p>
 
-        <div class="contact">
+        <p class="contact">
             <h3>📧 Email Deletion Request</h3>
             <p>If you cannot access the app, you can send an email with the following information:</p>
             <p><strong>Email:</strong> <a href="mailto:support@temporo.app">support@temporo.app</a></p>
@@ -55,7 +55,7 @@
                 <li>Request date</li>
             </ul>
             <p><strong>Processing Time:</strong> Processed within 48 hours</p>
-        </div>
+        </p>
 
         <h3>🗑️ Data to be Deleted</h3>
         <ul>
@@ -75,29 +75,29 @@
             <li><strong>Permanent:</strong> No data is retained</li>
         </ul>
 
-        <div class="contact">
+        <p class="contact">
             <h3>❓ For Questions</h3>
             <p><strong>Support:</strong> <a href="mailto:support@temporo.app">support@temporo.app</a></p>
             <p><strong>Privacy:</strong> <a href="mailto:privacy@temporo.app">privacy@temporo.app</a></p>
-        </div>
+        </p>
 
         <hr>
         <p><small>Last updated: December 2024 | Fast Tracker v1.0</small></p>
-    </div>
-    <div class="header">
+    </p>
+    <p class="header">
         <h1>🕐 Fast Tracker - Hesap Silme</h1>
         <p>Temporo Oruç Takip Uygulaması</p>
-    </div>
+    </p>
 
-    <div class="content">
+    <p class="content">
         <h2>Hesabınızı Silmek İstiyorsanız</h2>
         
-        <div class="warning">
+        <p class="warning">
             <h3>⚠️ Önemli Uyarı</h3>
             <p>Hesap silme işlemi <strong>geri alınamaz</strong>. Tüm verileriniz kalıcı olarak silinecektir.</p>
-        </div>
+        </p>
 
-        <div class="steps">
+        <p class="steps">
             <h3>📱 Uygulama İçinden Silme (Önerilen)</h3>
             <ol>
                 <li>Fast Tracker uygulamasını açın</li>
@@ -107,9 +107,9 @@
                 <li>İki kez onay verin</li>
                 <li>Hesabınız anında silinir</li>
             </ol>
-        </div>
+        </p>
 
-        <div class="contact">
+        <p class="contact">
             <h3>📧 E-posta İle Silme Talebi</h3>
             <p>Uygulamaya erişiminiz yoksa, aşağıdaki bilgilerle e-posta gönderebilirsiniz:</p>
             <p><strong>E-posta:</strong> <a href="mailto:duyguubayrakci@gmail.com">duyguubayrakci@gmail.com</a></p>
@@ -121,7 +121,7 @@
                 <li>Talep tarihi</li>
             </ul>
             <p><strong>İşlem Süresi:</strong> 48 saat içinde işleme alınır</p>
-        </div>
+        </p>
 
         <h3>🗑️ Silinen Veriler</h3>
         <ul>
@@ -141,15 +141,15 @@
             <li><strong>Kalıcı:</strong> Hiçbir veri saklanmaz</li>
         </ul>
 
-        <div class="contact">
+        <p class="contact">
             <h3>❓ Sorularınız İçin</h3>
             <p><strong>Destek:</strong><a href="mailto:duyguubayrakci@gmail.com">duyguubayrakci@gmail.com</a></p>
             <p><strong>Gizlilik:</strong><a href="mailto:duyguubayrakci@gmail.com">duyguubayrakci@gmail.com</a></p>
-        </div>
+        </p>
 
         <hr>
         <p><small>Son güncelleme: Aralık 2024 | Fast Tracker v1.0</small></p>
-    </div>
+    </p>
 </body>
 </html>
 
