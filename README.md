@@ -18,20 +18,20 @@
   <p>Contact: duyguubayrakci@gmail.com</p>
   
 
-    <p class="header">
+    <p>
         <h1>🕐 Fast Tracker - Account Deletion</h1>
         <p>Temporo Intermittent Fasting App</p>
     </p>
 
-    <p class="content">
+    <p >
         <h2>Request Account Deletion</h2>
         
-        <p class="warning">
+        <p>
             <h3>⚠️ Important Warning</h3>
             <p>Account deletion is <strong>irreversible</strong>. All your data will be permanently deleted.</p>
         </p>
 
-        <p class="steps">
+        <p   ="steps">
             <h3>📱 Delete Through App (Recommended)</h3>
             <ol>
                 <li>Open the Fast Tracker app</li>
@@ -43,7 +43,7 @@
             </ol>
         </p>
 
-        <p class="contact">
+        <p>
             <h3>📧 Email Deletion Request</h3>
             <p>If you cannot access the app, you can send an email with the following information:</p>
             <p><strong>Email:</strong> <a href="mailto:support@temporo.app">support@temporo.app</a></p>
@@ -75,7 +75,7 @@
             <li><strong>Permanent:</strong> No data is retained</li>
         </ul>
 
-        <p class="contact">
+        <p   ="contact">
             <h3>❓ For Questions</h3>
             <p><strong>Support:</strong> <a href="mailto:support@temporo.app">support@temporo.app</a></p>
             <p><strong>Privacy:</strong> <a href="mailto:privacy@temporo.app">privacy@temporo.app</a></p>
@@ -84,20 +84,20 @@
         <hr>
         <p><small>Last updated: December 2024 | Fast Tracker v1.0</small></p>
     </p>
-    <p class="header">
+    <p  >
         <h1>🕐 Fast Tracker - Hesap Silme</h1>
         <p>Temporo Oruç Takip Uygulaması</p>
     </p>
 
-    <p class="content">
+    <p>
         <h2>Hesabınızı Silmek İstiyorsanız</h2>
         
-        <p class="warning">
+        <p>
             <h3>⚠️ Önemli Uyarı</h3>
             <p>Hesap silme işlemi <strong>geri alınamaz</strong>. Tüm verileriniz kalıcı olarak silinecektir.</p>
         </p>
 
-        <p class="steps">
+        <p>
             <h3>📱 Uygulama İçinden Silme (Önerilen)</h3>
             <ol>
                 <li>Fast Tracker uygulamasını açın</li>
@@ -109,7 +109,7 @@
             </ol>
         </p>
 
-        <p class="contact">
+        <p>
             <h3>📧 E-posta İle Silme Talebi</h3>
             <p>Uygulamaya erişiminiz yoksa, aşağıdaki bilgilerle e-posta gönderebilirsiniz:</p>
             <p><strong>E-posta:</strong> <a href="mailto:duyguubayrakci@gmail.com">duyguubayrakci@gmail.com</a></p>
@@ -141,7 +141,7 @@
             <li><strong>Kalıcı:</strong> Hiçbir veri saklanmaz</li>
         </ul>
 
-        <p class="contact">
+        <p>
             <h3>❓ Sorularınız İçin</h3>
             <p><strong>Destek:</strong><a href="mailto:duyguubayrakci@gmail.com">duyguubayrakci@gmail.com</a></p>
             <p><strong>Gizlilik:</strong><a href="mailto:duyguubayrakci@gmail.com">duyguubayrakci@gmail.com</a></p>
