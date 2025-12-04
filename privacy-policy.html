@@ -1,21 +1,688 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gizlilik Politikası | Temporo</title>
-</head>
-<body>
-  <h1>Gizlilik Politikası</h1>
-  <p>Temporo, kullanıcılarından herhangi bir kişisel veri toplamaz, işlemez veya saklamaz. Uygulama yalnızca cihaz üzerinde çalışan yerel bildirimler, zamanlayıcılar ve kullanıcı tarafından başlatılan oruç takibi işlevlerini barındırır. Uygulama hiçbir şekilde kullanıcı bilgilerini üçüncü taraflarla paylaşmaz.</p>
-  <p>Uygulamada hesap oluşturma, e-posta toplama, reklam gösterimi veya ödeme alma gibi işlemler yapılmamaktadır.</p>
-  <p>Bu nedenle Temporo uygulaması kişisel verilerin korunması kanunu (KVKK) ve ilgili gizlilik yasalarına tam uyum içerisindedir.</p>
-  <p>İletişim: duygubayrakci@example.com</p>
-  <hr />
-  <h2>Privacy Policy</h2>
-  <p>Temporo does not collect, store, or process any personal data. The application operates fully locally on your device, using local notifications and timers for intermittent fasting purposes. No user data is shared with any third parties.</p>
-  <p>The app does not include features such as account creation, email collection, advertisements, or in-app purchases.</p>
-  <p>Therefore, Temporo fully complies with applicable privacy regulations including GDPR.</p>
-  <p>Contact: duygubayrakci@example.com</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gizlilik Politikası | Temporo</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #333;
+      }
+      h1,
+      h2 {
+        color: #023c69;
+        border-bottom: 2px solid #0a5a8c;
+        padding-bottom: 10px;
+      }
+      .section {
+        margin: 30px 0;
+        padding: 20px;
+        background: #f8f9fa;
+        border-radius: 8px;
+      }
+      .warning {
+        background: #fff3cd;
+        border: 1px solid #ffeaa7;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 15px 0;
+      }
+      .info {
+        background: #d1ecf1;
+        border: 1px solid #bee5eb;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 15px 0;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      li {
+        margin: 8px 0;
+      }
+      .contact {
+        background: #d4edda;
+        border: 1px solid #c3e6cb;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 15px 0;
+      }
+      .english {
+        margin-top: 50px;
+        padding-top: 30px;
+        border-top: 2px solid #0a5a8c;
+      }
+      a {
+        color: #0a5a8c;
+      }
+      .back-link {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: #0a5a8c;
+        text-decoration: none;
+      }
+      .back-link:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="index.html" class="back-link">← Ana Sayfaya Dön</a>
+
+    <h1>Gizlilik Politikası</h1>
+    <p><strong>Son Güncelleme:</strong> 4 Aralık 2025</p>
+    <p><strong>Uygulama Adı:</strong> Temporo - Intermittent Fasting</p>
+
+    <div class="section">
+      <h2>📱 Uygulama Hakkında</h2>
+      <p>
+        Temporo, aralıklı oruç (intermittent fasting) takibi için geliştirilmiş
+        bir mobil uygulamadır. Uygulama, kullanıcıların oruç sürelerini takip
+        etmelerine ve bildirimler almalarına yardımcı olur.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>🔒 Veri Toplama Politikamız</h2>
+
+      <div class="info">
+        <h3>✅ Topladığımız Veriler</h3>
+
+        <h4>Kimlik ve Hesap Bilgileri</h4>
+        <ul>
+          <li>
+            <strong>E-posta Adresi:</strong> Hesap oluşturma ve giriş için
+            gerekli. Şifre sıfırlama ve önemli bildirimler için kullanılır.
+          </li>
+          <li>
+            <strong>Kullanıcı ID'si:</strong> Firebase Authentication tarafından
+            otomatik oluşturulan benzersiz tanımlayıcı
+          </li>
+        </ul>
+
+        <h4>Oruç Takip Verileri</h4>
+        <ul>
+          <li>
+            <strong>Oruç Verileri:</strong> Başlangıç/bitiş zamanları, süre
+            bilgileri, plan türü
+          </li>
+          <li>
+            <strong>Oruç Notları:</strong> Kullanıcıların eklediği kişisel
+            notlar
+          </li>
+          <li>
+            <strong>Tamamlanan Oturumlar:</strong> Geçmiş oruç kayıtları ve
+            istatistikler
+          </li>
+        </ul>
+
+        <h4>Sağlık ve Vücut Bilgileri (Opsiyonel)</h4>
+        <ul>
+          <li>
+            <strong>Kilo (Weight):</strong> Kullanıcıların manuel olarak girdiği
+            kilo verileri. Kilo takibi ve ilerleme görselleştirmesi için
+            kullanılır.
+          </li>
+          <li>
+            <strong>Hedef Kilo:</strong> Kullanıcıların belirlediği hedef kilo
+            değeri
+          </li>
+          <li>
+            <strong>Boy (Height):</strong> BMI (Vücut Kitle İndeksi) hesaplama
+            için opsiyonel olarak toplanabilir
+          </li>
+          <li>
+            <strong>Cinsiyet (Gender):</strong> Kişiselleştirilmiş öneriler ve
+            istatistikler için opsiyonel olarak toplanabilir
+          </li>
+        </ul>
+        <p style="margin-top: 10px; font-size: 0.9em; opacity: 0.8">
+          <strong>Not:</strong> Sağlık verileri tamamen opsiyoneldir ve
+          kullanıcılar istedikleri zaman bu bilgileri ekleyebilir veya
+          silebilir. Bu veriler sadece uygulama içi özellikler için kullanılır
+          ve üçüncü taraflarla paylaşılmaz.
+        </p>
+
+        <h4>Uygulama Kullanım Verileri</h4>
+        <ul>
+          <li>
+            <strong>Bildirim Tercihleri:</strong> Bildirim açık/kapalı durumu,
+            bildirim zamanları
+          </li>
+          <li>
+            <strong>Cihaz Bilgileri:</strong> Platform (iOS/Android), cihaz adı,
+            uygulama versiyonu
+          </li>
+          <li>
+            <strong>Expo Push Token:</strong> Bildirim gönderimi için gerekli
+          </li>
+          <li><strong>Dil Tercihi:</strong> Uygulama dil ayarı</li>
+          <li><strong>Tema Tercihi:</strong> Açık/koyu mod tercihi</li>
+        </ul>
+
+        <h4>Su Takip Verileri (Opsiyonel)</h4>
+        <ul>
+          <li>
+            <strong>Günlük Su Tüketimi:</strong> Kullanıcıların girdiği günlük
+            su miktarı kayıtları
+          </li>
+        </ul>
+      </div>
+
+      <div class="warning">
+        <h3>❌ Toplamadığımız Veriler</h3>
+        <ul>
+          <li>
+            <strong>Kişisel Bilgiler:</strong> Ad, soyad, telefon numarası,
+            adres bilgileri
+          </li>
+          <li>
+            <strong>Detaylı Sağlık Verileri:</strong> Tıbbi geçmiş, ilaç
+            kullanımı, hastalık bilgileri, kan değerleri
+          </li>
+          <li>
+            <strong>Finansal Veriler:</strong> Kredi kartı, banka bilgileri,
+            ödeme geçmişi (satın alma işlemleri Google Play/App Store üzerinden
+            yapılır)
+          </li>
+          <li><strong>Konum Verileri:</strong> GPS, konum bilgileri</li>
+          <li>
+            <strong>İletişim Verileri:</strong> Rehber, mesajlar, e-posta
+            içerikleri
+          </li>
+          <li>
+            <strong>Biyometrik Veriler:</strong> Parmak izi, yüz tanıma verileri
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🛡️ Veri Güvenliği</h2>
+
+      <h3>Şifreleme ve Güvenlik</h3>
+      <ul>
+        <li>
+          <strong>SSL/TLS Şifreleme:</strong> Tüm veri aktarımları şifrelenir
+        </li>
+        <li>
+          <strong>Firebase Security Rules:</strong> Veritabanı erişim kontrolü
+        </li>
+        <li>
+          <strong>Güvenli Kimlik Doğrulama:</strong> Firebase Authentication ile
+          şifreli e-posta ve şifre saklama
+        </li>
+        <li>
+          <strong>Veri Minimizasyonu:</strong> Sadece gerekli veriler toplanır
+        </li>
+      </ul>
+
+      <h3>Veri Saklama</h3>
+      <ul>
+        <li>
+          <strong>Firebase Realtime Database:</strong> Google'ın güvenli
+          altyapısı
+        </li>
+        <li>
+          <strong>Otomatik Temizlik:</strong> Eski veriler otomatik silinir
+        </li>
+        <li><strong>Yedekleme:</strong> Güvenli sunucu yedeklemesi</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📊 Veri Kullanımı</h2>
+
+      <h3>Uygulama İşlevselliği</h3>
+      <ul>
+        <li>
+          <strong>Oruç Takibi:</strong> Başlangıç/bitiş zamanlarını kaydetme,
+          ilerleme takibi
+        </li>
+        <li>
+          <strong>Kilo Takibi:</strong> Kilo geçmişi, hedef kilo belirleme,
+          ilerleme grafikleri
+        </li>
+        <li>
+          <strong>BMI Hesaplama:</strong> Boy ve kilo bilgileriyle vücut kitle
+          indeksi hesaplama (opsiyonel)
+        </li>
+        <li>
+          <strong>Su Takibi:</strong> Günlük su tüketimi kayıtları ve
+          istatistikleri
+        </li>
+        <li>
+          <strong>Bildirimler:</strong> Zamanlanmış bildirim gönderimi,
+          hatırlatmalar
+        </li>
+        <li>
+          <strong>İstatistikler:</strong> Tamamlanan oruç sayısı, süreleri,
+          başarı oranları
+        </li>
+        <li><strong>Geçmiş:</strong> Önceki oruç kayıtları, kilo geçmişi</li>
+        <li>
+          <strong>Hesap Yönetimi:</strong> E-posta ile giriş, şifre sıfırlama,
+          hesap silme
+        </li>
+      </ul>
+
+      <h3>Analitik ve İyileştirme</h3>
+      <ul>
+        <li><strong>Hata Takibi:</strong> Uygulama hatalarını tespit etme</li>
+        <li>
+          <strong>Performans İzleme:</strong> Uygulama performansını ölçme
+        </li>
+        <li>
+          <strong>Kullanım İstatistikleri:</strong> Anonim kullanım verileri
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📢 Reklamlar</h2>
+      <p>
+        Uygulamamızda Google AdMob tarafından sağlanan reklamlar
+        gösterilmektedir. AdMob, reklam gösterimi için aşağıdaki verileri
+        toplayabilir:
+      </p>
+      <ul>
+        <li>
+          <strong>Reklam Kimliği (AAID/IDFA):</strong> Kişiselleştirilmiş reklam
+          için kullanılır
+        </li>
+        <li>
+          <strong>Cihaz Bilgileri:</strong> Model, işletim sistemi versiyonu
+        </li>
+        <li><strong>IP Adresi:</strong> Coğrafi konum tahmini için</li>
+      </ul>
+      <div class="info">
+        <p>
+          <strong>Not:</strong> Kişiselleştirilmiş reklamları uygulama
+          ayarlarından veya cihazınızın reklam ayarlarından kapatabilirsiniz.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🌐 Üçüncü Taraf Hizmetler</h2>
+
+      <h3>Firebase (Google)</h3>
+      <ul>
+        <li><strong>Veritabanı:</strong> Firebase Realtime Database</li>
+        <li><strong>Bildirimler:</strong> Expo Push Notifications</li>
+        <li><strong>Analitik:</strong> Firebase Analytics</li>
+      </ul>
+
+      <h3>Google AdMob</h3>
+      <ul>
+        <li><strong>Reklam Gösterimi:</strong> Banner ve geçiş reklamları</li>
+        <li>
+          <strong>Gizlilik Politikası:</strong>
+          <a href="https://policies.google.com/privacy" target="_blank"
+            >Google Gizlilik Politikası</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>👤 Kullanıcı Hakları</h2>
+
+      <h3>KVKK ve GDPR Uyumluluğu</h3>
+      <ul>
+        <li>
+          <strong>Veri Erişimi:</strong> Kullanıcılar verilerini
+          görüntüleyebilir
+        </li>
+        <li>
+          <strong>Veri Silme:</strong> Uygulama kaldırıldığında veriler silinir
+        </li>
+        <li>
+          <strong>Veri Taşınabilirliği:</strong> Veri dışa aktarma özelliği
+        </li>
+        <li><strong>İtiraz Hakkı:</strong> Veri işlemeye itiraz etme</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📅 Veri Saklama Süresi</h2>
+
+      <ul>
+        <li>
+          <strong>Aktif Kullanıcılar:</strong> Uygulama kullanıldığı sürece
+        </li>
+        <li>
+          <strong>Pasif Kullanıcılar:</strong> 12 ay sonra otomatik silinir
+        </li>
+        <li><strong>Uygulama Kaldırma:</strong> Anında veri silme</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🔔 Bildirimler</h2>
+
+      <h3>Bildirim Türleri</h3>
+      <ul>
+        <li><strong>Oruç Bildirimleri:</strong> Başlangıç, yarı yol, bitiş</li>
+        <li><strong>Günlük Hatırlatmalar:</strong> Motivasyon ve su içme</li>
+        <li><strong>Milestone Bildirimleri:</strong> Başarı aşamaları</li>
+      </ul>
+
+      <h3>Bildirim İzinleri</h3>
+      <ul>
+        <li>
+          <strong>İsteğe Bağlı:</strong> Kullanıcı bildirimleri kapatabilir
+        </li>
+        <li>
+          <strong>Platform Ayarları:</strong> Cihaz bildirim ayarlarından
+          kontrol
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <h2>📞 İletişim</h2>
+      <p><strong>E-posta:</strong> duyguubayrakci@gmail.com</p>
+      <p>
+        <strong>GitHub:</strong>
+        <a href="https://github.com/duygubayrakci/fastTracker">Proje Sayfası</a>
+      </p>
+      <p>
+        <strong>Gizlilik Soruları:</strong> Yukarıdaki e-posta adresinden
+        ulaşabilirsiniz.
+      </p>
+    </div>
+
+    <div class="english">
+      <h1>Privacy Policy</h1>
+      <p><strong>Last Updated:</strong> December 4, 2025</p>
+      <p><strong>App Name:</strong> Temporo - Intermittent Fasting</p>
+
+      <div class="section">
+        <h2>📱 About the App</h2>
+        <p>
+          Temporo is a mobile application developed for intermittent fasting
+          tracking. The app helps users track their fasting periods and receive
+          notifications.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>🔒 Our Data Collection Policy</h2>
+
+        <div class="info">
+          <h3>✅ Data We Collect</h3>
+
+          <h4>Identity and Account Information</h4>
+          <ul>
+            <li>
+              <strong>Email Address:</strong> Required for account creation and
+              login. Used for password reset and important notifications.
+            </li>
+            <li>
+              <strong>User ID:</strong> Unique identifier automatically
+              generated by Firebase Authentication
+            </li>
+          </ul>
+
+          <h4>Fasting Tracking Data</h4>
+          <ul>
+            <li>
+              <strong>Fasting Data:</strong> Start/end times, duration
+              information, plan type
+            </li>
+            <li>
+              <strong>Fasting Notes:</strong> Personal notes added by users
+            </li>
+            <li>
+              <strong>Completed Sessions:</strong> Historical fasting records
+              and statistics
+            </li>
+          </ul>
+
+          <h4>Health and Body Information (Optional)</h4>
+          <ul>
+            <li>
+              <strong>Weight:</strong> Weight data manually entered by users.
+              Used for weight tracking and progress visualization.
+            </li>
+            <li>
+              <strong>Target Weight:</strong> Target weight value set by users
+            </li>
+            <li>
+              <strong>Height:</strong> May be collected optionally for BMI (Body
+              Mass Index) calculation
+            </li>
+            <li>
+              <strong>Gender:</strong> May be collected optionally for
+              personalized recommendations and statistics
+            </li>
+          </ul>
+          <p style="margin-top: 10px; font-size: 0.9em; opacity: 0.8">
+            <strong>Note:</strong> Health data is completely optional and users
+            can add or delete this information at any time. This data is only
+            used for in-app features and is not shared with third parties.
+          </p>
+
+          <h4>App Usage Data</h4>
+          <ul>
+            <li>
+              <strong>Notification Preferences:</strong> Notification on/off
+              status, notification times
+            </li>
+            <li>
+              <strong>Device Information:</strong> Platform (iOS/Android),
+              device name, app version
+            </li>
+            <li>
+              <strong>Expo Push Token:</strong> Required for notification
+              delivery
+            </li>
+            <li><strong>Language Preference:</strong> App language setting</li>
+            <li>
+              <strong>Theme Preference:</strong> Light/dark mode preference
+            </li>
+          </ul>
+
+          <h4>Water Tracking Data (Optional)</h4>
+          <ul>
+            <li>
+              <strong>Daily Water Intake:</strong> Daily water consumption
+              records entered by users
+            </li>
+          </ul>
+        </div>
+
+        <div class="warning">
+          <h3>❌ Data We Don't Collect</h3>
+          <ul>
+            <li>
+              <strong>Personal Information:</strong> Name, surname, phone
+              number, address information
+            </li>
+            <li>
+              <strong>Detailed Health Data:</strong> Medical history, medication
+              use, disease information, blood values
+            </li>
+            <li>
+              <strong>Financial Data:</strong> Credit card, bank information,
+              payment history (purchases are made through Google Play/App Store)
+            </li>
+            <li><strong>Location Data:</strong> GPS, location information</li>
+            <li>
+              <strong>Contact Data:</strong> Contacts, messages, email content
+            </li>
+            <li>
+              <strong>Biometric Data:</strong> Fingerprint, facial recognition
+              data
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>📢 Advertisements</h2>
+        <p>
+          Our app displays advertisements provided by Google AdMob. AdMob may
+          collect the following data for ad serving:
+        </p>
+        <ul>
+          <li>
+            <strong>Advertising ID (AAID/IDFA):</strong> Used for personalized
+            ads
+          </li>
+          <li><strong>Device Information:</strong> Model, OS version</li>
+          <li>
+            <strong>IP Address:</strong> For geographic location estimation
+          </li>
+        </ul>
+        <div class="info">
+          <p>
+            <strong>Note:</strong> You can disable personalized ads from the app
+            settings or your device's ad settings.
+          </p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>📊 Data Usage</h2>
+
+        <h3>App Functionality</h3>
+        <ul>
+          <li>
+            <strong>Fasting Tracking:</strong> Recording start/end times,
+            progress tracking
+          </li>
+          <li>
+            <strong>Weight Tracking:</strong> Weight history, target weight
+            setting, progress charts
+          </li>
+          <li>
+            <strong>BMI Calculation:</strong> Body mass index calculation using
+            height and weight information (optional)
+          </li>
+          <li>
+            <strong>Water Tracking:</strong> Daily water consumption records and
+            statistics
+          </li>
+          <li>
+            <strong>Notifications:</strong> Scheduled notification delivery,
+            reminders
+          </li>
+          <li>
+            <strong>Statistics:</strong> Completed fast count, durations,
+            success rates
+          </li>
+          <li>
+            <strong>History:</strong> Previous fasting records, weight history
+          </li>
+          <li>
+            <strong>Account Management:</strong> Email login, password reset,
+            account deletion
+          </li>
+        </ul>
+
+        <h3>Analytics and Improvement</h3>
+        <ul>
+          <li><strong>Error Tracking:</strong> Detecting app errors</li>
+          <li>
+            <strong>Performance Monitoring:</strong> Measuring app performance
+          </li>
+          <li><strong>Usage Statistics:</strong> Anonymous usage data</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>🛡️ Data Security</h2>
+
+        <h3>Encryption and Security</h3>
+        <ul>
+          <li>
+            <strong>SSL/TLS Encryption:</strong> All data transfers are
+            encrypted
+          </li>
+          <li>
+            <strong>Firebase Security Rules:</strong> Database access control
+          </li>
+          <li>
+            <strong>Secure Authentication:</strong> Encrypted email and password
+            storage with Firebase Authentication
+          </li>
+          <li>
+            <strong>Data Minimization:</strong> Only necessary data is collected
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>🌐 Third-Party Services</h2>
+
+        <h3>Firebase (Google)</h3>
+        <ul>
+          <li><strong>Database:</strong> Firebase Realtime Database</li>
+          <li><strong>Notifications:</strong> Expo Push Notifications</li>
+          <li><strong>Analytics:</strong> Firebase Analytics</li>
+        </ul>
+
+        <h3>Google AdMob</h3>
+        <ul>
+          <li><strong>Ad Serving:</strong> Banner and interstitial ads</li>
+          <li>
+            <strong>Privacy Policy:</strong>
+            <a href="https://policies.google.com/privacy" target="_blank"
+              >Google Privacy Policy</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>👤 User Rights</h2>
+
+        <h3>GDPR Compliance</h3>
+        <ul>
+          <li><strong>Data Access:</strong> Users can view their data</li>
+          <li>
+            <strong>Data Deletion:</strong> Data is deleted when app is removed
+          </li>
+          <li><strong>Data Portability:</strong> Data export feature</li>
+          <li><strong>Right to Object:</strong> Object to data processing</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>📅 Data Retention Period</h2>
+
+        <ul>
+          <li><strong>Active Users:</strong> While app is being used</li>
+          <li>
+            <strong>Inactive Users:</strong> Automatically deleted after 12
+            months
+          </li>
+          <li><strong>App Removal:</strong> Immediate data deletion</li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>📞 Contact</h2>
+        <p><strong>Email:</strong> duyguubayrakci@gmail.com</p>
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/duygubayrakci/fastTracker"
+            >Project Page</a
+          >
+        </p>
+        <p>
+          <strong>Privacy Questions:</strong> Contact us at the email address
+          above.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
