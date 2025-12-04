@@ -47,6 +47,11 @@
         box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
       }
 
+      .logo svg {
+        width: 64px;
+        height: 64px;
+      }
+
       h1 {
         font-size: 2.5rem;
         margin-bottom: 15px;
@@ -131,7 +136,16 @@
   </head>
   <body>
     <div class="container">
-      <div class="logo">⏱️</div>
+      <div class="logo">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32 8C20.954 8 12 16.954 12 28C12 39.046 20.954 48 32 48C43.046 48 52 39.046 52 28C52 16.954 43.046 8 32 8Z" fill="white" opacity="0.95"/>
+          <path d="M32 4C18.745 4 8 14.745 8 28C8 41.255 18.745 52 32 52C45.255 52 56 41.255 56 28C56 14.745 45.255 4 32 4ZM32 48C21.506 48 12 38.494 12 28C12 17.506 21.506 8 32 8C42.494 8 52 17.506 52 28C52 38.494 42.494 48 32 48Z" fill="white" opacity="0.8"/>
+          <circle cx="32" cy="28" r="3" fill="#023c69"/>
+          <path d="M32 20V28L38 34" stroke="#023c69" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+          <path d="M32 56V60" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+          <path d="M28 60H36" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+        </svg>
+      </div>
       <h1>Temporo</h1>
       <p class="tagline">Hızlı Oruç Takip Uygulaması</p>
 
@@ -143,18 +157,11 @@
       </div>
 
       <div class="store-badges">
-        <a href="#" class="store-badge">
+        <a href="https://play.google.com/store/apps/details?id=com.duygubayrakci.temporo" class="store-badge" target="_blank" rel="noopener noreferrer">
           <span>▶</span>
           <div>
             <small>GET IT ON</small><br />
             <strong>Google Play</strong>
-          </div>
-        </a>
-        <a href="#" class="store-badge">
-          <span>🍎</span>
-          <div>
-            <small>Download on the</small><br />
-            <strong>App Store</strong>
           </div>
         </a>
       </div>
