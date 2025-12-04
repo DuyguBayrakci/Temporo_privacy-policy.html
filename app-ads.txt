@@ -1,0 +1,6 @@
+# Temporo App - Authorized Digital Sellers
+# Publisher ID'nizi AdMob'dan alıp aşağıdaki satırı güncelleyin
+# AdMob > Uygulamalar > app-ads.txt > App-ads.txt dosyasını ayarlama
+
+google.com, pub-7356204074826886, DIRECT, f08c47fec0942fa0
+

@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temporo - Hızlı Oruç Takip Uygulaması</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Oxygen, Ubuntu, sans-serif;
+        background: linear-gradient(
+          135deg,
+          #023c69 0%,
+          #0a5a8c 50%,
+          #0d6eaa 100%
+        );
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 600px;
+        text-align: center;
+      }
+
+      .logo {
+        width: 120px;
+        height: 120px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 30px;
+        font-size: 48px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+        font-weight: 700;
+      }
+
+      .tagline {
+        font-size: 1.2rem;
+        opacity: 0.9;
+        margin-bottom: 40px;
+      }
+
+      .features {
+        display: grid;
+        gap: 15px;
+        margin-bottom: 40px;
+      }
+
+      .feature {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 15px 20px;
+        border-radius: 12px;
+        backdrop-filter: blur(10px);
+      }
+
+      .store-badges {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+      }
+
+      .store-badge {
+        background: rgba(0, 0, 0, 0.3);
+        padding: 12px 24px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition:
+          transform 0.2s,
+          background 0.2s;
+      }
+
+      .store-badge:hover {
+        transform: scale(1.05);
+        background: rgba(0, 0, 0, 0.4);
+      }
+
+      footer {
+        margin-top: 40px;
+        opacity: 0.7;
+        font-size: 0.9rem;
+      }
+
+      footer a {
+        color: white;
+        text-decoration: underline;
+      }
+
+      .links {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+      }
+
+      .links a {
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        font-size: 0.85rem;
+      }
+
+      .links a:hover {
+        color: white;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">⏱️</div>
+      <h1>Temporo</h1>
+      <p class="tagline">Hızlı Oruç Takip Uygulaması</p>
+
+      <div class="features">
+        <div class="feature">📊 Oruç sürelerinizi kolayca takip edin</div>
+        <div class="feature">🔔 Akıllı bildirimlerle hedeflerinize ulaşın</div>
+        <div class="feature">📈 İlerlemenizi grafiklerle görün</div>
+        <div class="feature">🌙 Karanlık mod desteği</div>
+      </div>
+
+      <div class="store-badges">
+        <a href="#" class="store-badge">
+          <span>▶</span>
+          <div>
+            <small>GET IT ON</small><br />
+            <strong>Google Play</strong>
+          </div>
+        </a>
+        <a href="#" class="store-badge">
+          <span>🍎</span>
+          <div>
+            <small>Download on the</small><br />
+            <strong>App Store</strong>
+          </div>
+        </a>
+      </div>
+
+      <footer>
+        <p>&copy; 2025 Duygu Bayrakçı. Tüm hakları saklıdır.</p>
+        <div class="links">
+          <a href="privacy-policy.html">Gizlilik Politikası</a>
+          <a href="terms.html">Kullanım Koşulları</a>
+          <a href="mailto:support@example.com">İletişim</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
